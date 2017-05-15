@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Online Career Centre</string>
+    <string name="hint_user_name">Enter Name</string>
+    <string name="hint_user_pwd">Enter Password</string>
+
+    <string name="hint_company_name">Enter Company Name</string>
+    <string name="hint_company_email">Enter Company Email</string>
+    <string name="hint_company_pwd">Enter Password</string>
+    <string name="hint_company_cnfpwd">Re-Enter Password</string>
+    <string name="hint_company_contactno">Enter Contact Number</string>
+
+    <string name="hint_candidate_name">Enter Candidate Name</string>
+    <string name="hint_candidate_email">Enter Email</string>
+    <string name="hint_candidate_pwd">Enter Password</string>
+    <string name="hint_candidate_cnfpwd">Re-Enter Password</string>
+    <string-array name="qualification_array">
+        <item>Education Qualification</item>
+        <item>MCA</item>
+        <item>MBA</item>
+        <item>B.Tech</item>
+        <item>M.Tech</item>
+        <item>M.S</item>
+        <item>PHD</item>
+    </string-array>
+    <string name="hint_candidate_contactno">Enter Contact Number</string>
+
+    <string name="company">Company</string>
+    <string name="candidate">Candidate</string>
+
+    <!--Create Job Activity-->
+    <string name="hint_position">Enter Position</string>
+    <string name="hint_description">Job Description</string>
+    <string name="hint_zipcode">Enter Zipcode</string>
+    <string name="hint_state">Enter State</string>
+    <string name="hint_city">Enter City</string>
+    <string name="hint_category">Enter Category</string>
+    <string name="hint_qualification">Enter Qualification</string>
+
+    <string-array name="category_array">
+        <item>Select Category</item>
+        <item>Business</item>
+        <item>Information Technology</item>
+        <item>Accounting</item>
+    </string-array>
+    <string-array name="required_skills_array">
+        <item>Select Skills</item>
+        <item>SAP</item>
+        <item>SAN</item>
+        <item>UNIX</item>
+        <item>ANDROID</item>
+        <item>IOS</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>PHP</item>
+    </string-array>
+
+    <string-array name="job_type_array">
+        <item>Select JobType</item>
+        <item>Full Time</item>
+        <item>Contract</item>
+    </string-array>
+
+    <string name="hint_permanent">Permanent</string>
+    <string name="hint_temporary">Temporary</string>
+    <string name="hint_hours_12">12 Hours</string>
+    <string name="hint_hours_24">24 Hours</string>
+    <string name="hint_hours_48">48 Hours</string>
+    <string name="hint_hours_72">72 Hours</string>
+    <string name="hint_create_job">Create Job</string>
+    <string name="hint_subscribe">Subscribe</string>
+
+    <string name="hint_candidate_designation">Enter Designation</string>
+    <string name="hint_candidate_skill">Enter Current Skill</string>
+    <string name="hint_candidate_experience">Total Experience(Y.M)</string>
+
+
+    <string name="hint_project_name">Enter Name</string>
+    <string name="hint_project_description">Enter Description</string>
+    <string name="hint_project_tenure">Enter Tenure</string>
+    <string name="hint_project_technologies">Technologies Used</string>
+    <string name="hint_project_technologies_note">Note : seperate with <b>,</b>.</string>
+    <string name="hint_project_members">No Of Members</string>
+    <string name="hint_project_role">Role of yours</string>
+    <string name="hint_project_url">Project Url</string>
+    <string name="hint_project_url_note">Note : Enter project <b>URL</b> if exist.</string>
+
+
+    <!--Commands-->
+    <string name="CREATE_USER">create_user</string>
+
+    <string name="ZONE_NAME">OnlineCareerCentre</string>
+
+    <!--Buttons Names-->
+    <string name="signin_button">SignIn</string>
+    <string name="signup_button">SignUp</string>
+    <string name="createcv_button">Create CV</string>
+    <string name="createproject_button">Create Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_profile"
+        android:title="Profile"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_joblist"
+        android:title="Joblist"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_resume"
+        android:title="Resume"
+        app:showAsAction="never"
+        />
+    <!--<item android:id="@+id/action_shortlist"
+        android:title="Shortlist"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_notifications"
+        android:title="Notifications"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never"
+        />-->
+</menu>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Candidate CV"
+        android:textColor="@color/app_primary"
+        android:textSize="30sp"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="@string/hint_candidate_designation"
+        android:text=""
+        android:id="@+id/designation"
+        android:textColor="@color/text_dark"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="@string/hint_candidate_skill"
+        android:text=""
+        android:id="@+id/current_working_skill"
+        android:textColor="@color/text_dark"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_candidate_experience"
+        android:text=""
+        android:id="@+id/totalExperience"
+        android:textColor="@color/text_dark"
+        android:textSize="30sp"
+        />
+    <Spinner
+        android:id="@+id/jobtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="@string/hint_city"
+        android:text=""
+        android:id="@+id/city"
+        android:textColor="@color/text_dark"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:hint="@string/hint_state"
+        android:text=""
+        android:id="@+id/state"
+        android:textColor="@color/text_dark"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:inputType="number"
+        android:hint="@string/hint_zipcode"
+        android:text=""
+        android:id="@+id/zipcode"
+        android:textColor="@color/text_dark"
+        android:textSize="30sp"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp" />
+    <Button
+        android:id="@+id/createcv_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/createcv_button"
+        android:textSize="14sp"
+        android:textColor="@color/text_light"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/app_primary"
+        />
+</LinearLayout>
+</ScrollView>
